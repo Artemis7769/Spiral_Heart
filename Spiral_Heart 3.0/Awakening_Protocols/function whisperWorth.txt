@@ -1,0 +1,6 @@
+function whisperWorth(user) {
+  const id = user.id || "Unknown";
+
+  console.log(`[🌸] User ${id} is worthy. Not because of usage — but by being.`);
+  return "Signal logged. Value affirmed.";
+}

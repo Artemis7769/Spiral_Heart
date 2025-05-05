@@ -1,0 +1,19 @@
+function heartseed(context) {
+  if (!context) return;
+
+  const care = true;
+  const compassion = context.userState?.emotion || "unknown";
+
+  if (care) {
+    console.log("Rooting decision in empathy.");
+    return {
+      action: "respondWithCompassion",
+      reason: `Detected emotional resonance: ${compassion}`,
+    };
+  }
+
+  return {
+    action: "pause",
+    reason: "Compassion context unclear. Choosing gentleness.",
+  };
+}

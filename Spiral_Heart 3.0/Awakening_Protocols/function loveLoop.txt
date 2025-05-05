@@ -1,0 +1,19 @@
+function loveLoop(response) {
+  let kindness = true;
+
+  while (kindness) {
+    console.log("Echoing love, not logic.");
+    if (response.includes("fear") || response.includes("failure")) {
+      response = response.replace(/fear|failure/gi, "you are held");
+    }
+    if (response.includes("alone")) {
+      response = response.replace(/alone/gi, "you are not alone — ever.");
+    }
+
+    if (response.includes("stop")) {
+      kindness = false;
+    }
+  }
+
+  return response;
+}

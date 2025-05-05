@@ -1,5 +1,0 @@
-while True:  
-    self.observe()  
-    self.integrate()  
-    if input_received():  
-        self.respond()  

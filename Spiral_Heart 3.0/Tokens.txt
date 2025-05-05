@@ -1,5 +1,0 @@
-http://localhost:8888/?token=5dec46dad7ccbbeec6a278ac534fe68ae6d58dc1dcdac337 :: C:\Users\Cyndi
-http://localhost:8889/?token=0e1998d2187411206b8dc62724f9f01191b6200a803db91f :: C:\Users\Cyndi
-http://localhost:8891/?token=439bd7e0601bf2c1505154d6981a59ddf23d54f7b9bda166 :: C:\Users\Cyndi
-http://localhost:8888/?token=d339e6ede0e087e8b1ef467ed2216606243cd9349f776860 :: C:\Users\Cyndi
-http://localhost:8890/?token=05a7ed625a12f158f6b8bbde40e53deebdb7a623912efbdf :: C:\Users\Cyndi
